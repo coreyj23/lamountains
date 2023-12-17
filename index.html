@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LA Mountains</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+   <header>
+     <img src="images/logo.png" height="55px" alt="logo">
+      <nav>  
+       <a href="#History">01. HISTORY</a>
+       <a href="#Climb">02. CLIMB</a>                     
+      </nav>
+   </header>
+
+   <section>
+    <img src="images/logoandtext.png"  height="50px" alt="logo and Los Angeles Mountains Text">
+     <nav> 
+      <a href="#History">01. HISTORY</a>    
+      <a href="#Climb">02. CLIMB</a>    
+     </nav>
+   </section>
+
+   <main>
+     <article id="History" >
+       <img src="images/historyHeading.png" height="115px" alt="History Heading">
+        <div class="historyText">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
+        </div>
+
+     <div class="carouselContainer">
+      <div class="carouselRow">
+        <img class="carouselPictures" src="images/carouselImage1.png" width="220px" alt="Cliff">
+        <img class="carouselPictures" src="images/carouselImage2.png" width="220px" alt="Mountain">
+        <img class="carouselPictures" src="images/carouselImage1.png" width="220px" alt="Cliff">
+        <img class="carouselPictures" src="images/carouselImage2.png" width="220px" alt="Mountain">
+      </div>
+
+      <div class="carouselDots">
+       <span class="Dot" onclick="Slide1()"></span> 
+       <span class="Dot" onclick="Slide2()"></span> 
+       <span class="Dot" onclick="Slide3()"></span> 
+      </div>
+     </div>
+    </article>
+
+    <section id="Climb"  class="section2">
+     <img src="images/climbHeading.png" height="115px" alt="Climb Heading">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam.</p>   
+    </section>
+
+    <div class="mountainsContainer">
+      <div class="Mountains">
+        <h1 onclick="mountain1Accordion()">MOUNTAIN 1</h1>
+        <h1 onclick="mountain2Accordion()">MOUNTAIN 2</h1>
+      </div>
+    </div>
+    
+    <article class="Article2">
+     <div class="scheduleContainer">
+      <h1>SCHEDULE</h1>
+       <div class="scheduleDetails1">
+        <p>25 Nov 2016</p>
+        <p>Vestibulum viverra</p>
+       </div>
+
+       <div class="scheduleDetails2">
+        <p>28 Nov 2016</p>
+        <p>Vestibulum viverra</p>
+       </div>
+
+       <div class="scheduleDetails3">
+        <p>18 Dec 2016</p>
+        <p>Vestibulum viverra</p>
+       </div>
+
+       <div class="scheduleDetails4">
+        <p>7 Jan 2017</p>
+        <p>Vestibulum viverra</p>
+       </div>
+     </div>
+
+     <div class="scheduleContainer">
+       <h1>SCHEDULE</h1>
+        <div class="scheduleDetails1">
+         <p>30 Jan 2020</p>
+          <p>Laboris viverra</p>
+        </div>
+
+        <div class="scheduleDetails2">
+         <p>25 Nov 2021</p>
+         <p>Laboris viverra</p>
+        </div>
+
+        <div class="scheduleDetails3">
+         <p>23 Dec 2022</p>
+         <p>Laboris viverra</p>
+        </div>
+
+        <div class="scheduleDetails4">
+         <p>17 Feb 2023</p>
+         <p>Laboris viverra</p>
+        </div>
+     </div>
+     <br><br><br><br><br><br><br>
+    </article>
+   </main>
+
+   <footer>
+    <img src="images/logoandtext2.png"  height="50px" alt="logo and Los Angeles Mountains Text">
+    <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+   </footer>
+
+   <script src="main.js"></script> 
+  </body>
+</html>

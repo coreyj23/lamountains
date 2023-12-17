@@ -1,0 +1,94 @@
+
+
+@media only screen and (max-width: 950px) {
+
+/*                                                                  Header */
+
+header {
+    background-size: auto;
+  }
+nav{
+    width: fit-content;
+} 
+
+ header nav a{
+    display: flex;
+    margin: 0 auto 15px;
+ }
+
+/*                                                                  Section 1*/
+
+section nav a{
+    display: flex;
+    position: relative;
+    right: 20px;
+    margin: 15px auto;
+    text-decoration: none;
+    color: rgba(42,64,100,255);
+    font-size: 13px;
+}
+
+/*                                                                 article 1*/
+
+.historyText p{
+    line-height: 1.5;
+    width: 85%;
+    margin: 0 auto;
+    color:  rgba(42,64,100,255);;
+}
+
+.carouselContainer{
+    margin-top: 150px;
+    padding: 55px 0;
+}
+
+.carouselPictures {
+    display: block;
+    padding: 10px auto;
+    position: relative;
+    left: 11%;
+}
+
+.carouselDots{  
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 440px;
+ }
+
+/*                                                                  Section 2*/
+.section2 {
+    display: block;
+    margin: 15px auto 0;
+    width: 100%;
+ }
+ 
+ .section2 p{
+     width: 80%;
+}
+
+.Mountains{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 0.5rem;
+ }   
+ 
+ .Mountains h1:hover::before{
+    left: 4.5px;
+    width: 110px;
+ }
+ 
+/*                                                                  article 2*/
+
+.scheduleContainer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.scheduleContainer:nth-child(2){
+    margin: 0 auto;
+    width: 70%;
+}
+
+}

@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+nav{
+    width: 220px;
+}
+
+/*                                                                  Header */
+
+header {
+  background-image: url(images/bgImage1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px 0 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  margin: auto 15px;
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+header nav a::before {
+  position: absolute;
+  content: '';
+  height: 1.5px;
+  bottom: -4px; 
+  left: 2px;
+  right: 0;
+  width: 105%;
+  background: white;
+}
+
+/*                                                                  Section 1*/
+
+section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+section nav a {
+  position: relative;
+  right: 20px;
+  margin: auto 15px;
+  text-decoration: none;
+  color: rgba(42,64,100,255);
+  font-size: 13px;
+}
+
+section nav a::before {
+  position: absolute; 
+  content: '';
+  height: 1.5px;
+  bottom: -4px; 
+  left: 2px;
+  right: 0;
+  width: 105%;
+  background: rgba(42,64,100,255);
+}
+
+/*                                                                  main*/
+
+/*                                                             article 1*/
+
+article {
+  margin: 15px auto 0;
+  background-image: url(images/bgImage2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0 0;
+}
+
+article img {
+  margin-left: 19%;
+  margin-top: 25px;
+}
+
+.historyText p {
+  line-height: 1.5; 
+  width: 770px;
+  margin: 0 auto;
+  color:  rgba(42,64,100,255);;
+}
+
+.carouselContainer {
+  display: flex;
+  opacity: 0.95;
+  margin-top: 310px;
+  padding: 45px 0;
+  background: rgb(52,68,92);
+  background: linear-gradient(90deg, rgba(52,68,92,1) 0%, rgba(60,68,92,1) 35%, rgba(56,68,92,1) 100%);
+}
+
+.carouselRow {
+  margin: 0 auto;
+}
+
+.carouselPictures {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.carouselDots{
+   position: relative;
+   right: 50%;
+   top: 155px;
+   height: fit-content;
+}
+
+.Dot{
+   background-color: rgb(161, 161, 161);
+   opacity: 0.5;
+   border-radius: 25px;
+   display: inline-flex;
+   transition: 0.7s ease-out;
+   cursor: pointer;
+   height: 10px;
+   width: 10px;
+   margin: 0 2px;
+}
+
+.Dot:hover {
+    opacity: 0.99;
+    background-color: white;
+}
+
+.activeDot{
+    opacity: 0.99;
+    background-color: white; 
+}
+
+/*                                                                  Section 2*/
+
+.section2 {
+   margin: 15px auto 0;
+   width: 950px;
+}
+
+.section2 p{
+line-height: 1.5;
+ width: 70%;
+ margin: auto;
+}
+
+.mountainsContainer{
+margin: 15px 0 0;
+width: 100%;
+background-color: rgb(52,68,92);
+
+}
+
+.Mountains{
+    display: inline-flex;
+   margin-left: 205px;
+   font-size: 9.5px;
+ }
+
+.Mountains h1{
+    color: #afb4be;
+   margin: 0 10px;
+   transition: 0.6s ease;
+   padding: 15px 10px;
+   position: relative;
+   cursor: pointer;
+ }
+
+ .Mountains h1:hover{
+    color: rgb(52,68,92);
+    background: #afb4be;
+   margin: 0 10px;
+   transition: 0.6s ease;
+   padding: 15px 10px;
+   position: relative;
+ }
+
+ .Mountains h1:hover::before{
+    position: absolute;
+    content: '';
+    height: 1.5px;
+    bottom: 13px; 
+    right: 11.5px;
+    width: 120px;
+	background: rgb(52,68,92);
+ }
+
+
+/*                                                             article 2*/
+
+.Article2 {
+    margin: 0 auto;
+    background-image: url(images/bgImage3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vh 0;
+    }
+
+.scheduleContainer{
+    width: 320px;
+    margin: 0 0 0 250px;
+    opacity: 0.9;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.scheduleContainer:nth-child(2){
+    width: 320px;
+    margin: 0 0 0 250px;
+    opacity: 0.9;
+    background-color: white;
+    padding: 20px 40px;
+    display: none;
+}
+
+
+.scheduleContainer h1{
+    color: rgb(52,68,92);
+    margin: 0 0 0 5px;
+    font-size: 30px;
+}
+
+.scheduleContainer p{
+    color: rgb(52,68,92);
+    margin: 0 0 0 5px;
+    font-size: 0.9rem;
+}
+
+.scheduleDetails1{
+    margin: 10px 0 0 5px;
+    color: rgb(52,68,92);
+    display: flex;
+    justify-content: space-between;
+}
+
+.scheduleDetails2{
+    margin: 5px 0 0 5px;
+    color: rgb(52,68,92);
+    display: flex;
+    justify-content: space-between;
+}
+
+.scheduleDetails3{
+    margin: 20px 0 0 5px;
+    color: rgb(52,68,92);
+    display: flex;
+    justify-content: space-between;
+}
+
+.scheduleDetails4{
+    margin: 20px 0 0 5px;
+    color: rgb(52,68,92);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*                                                                footer*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #3f4f6c;
+    color: #62759e;
+    align-items: center;
+    font-size: 13px;
+}
